@@ -1,0 +1,19 @@
+{
+  "name": "jcarouth/testing-essentials-mocks",
+  "description": "Example repository of code for presentation Unit Testing Essentials: Mock Objects Explained",
+  "require": {
+    "phpunit/phpunit": "3.7.*",
+    "phake/phake": "v2.0.0-alpha4",
+    "mockery/mockery": "0.8.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {"name": "Jeff Carouth", "email": "jcarouth@gmail.com"}
+  ],
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "autoload": {
+    "psr-0": {"": "src"}
+  }
+}
